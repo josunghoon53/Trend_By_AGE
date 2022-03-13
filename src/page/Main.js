@@ -69,9 +69,7 @@ const Main = () =>{
 
 
 	return (
-		<div className={style.main_container} onClick = {() =>{
-			console.log(data)
-		}}>
+		<div className={style.main_container}>
 			<div className={style.input_container}>
 				<ul>
 					<li className={style.input_box}>

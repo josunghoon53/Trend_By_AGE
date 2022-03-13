@@ -5,7 +5,16 @@ export const INPUT_INIT =  'trend/INPUT_INIT';
 /*------------------------------------------------------*/
 
 
-const  inputDefault = []
+const  inputDefault = [{
+	startDate : '',
+	endDate : '',
+	timeUnit : '',
+	category :'50000000',
+	keyword : '',
+	device : '',
+	gender :'',
+	ages : '',
+}]
 
 
 /* ----------------- 리듀서 ---------------------------- */
